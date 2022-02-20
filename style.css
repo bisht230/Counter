@@ -1,0 +1,33 @@
+
+.container{
+    text-align: center;
+    margin-top: 8rem;
+}
+.container h1{
+    font-family: sans-serif; 
+    font-weight: 600; 
+    font-size: 3.5rem;
+}
+#value{
+    font-size: 4rem;
+}
+.button-container{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-content{
+    color: gray;
+    margin-left: 1rem;
+    position: absolute;
+    bottom: 1rem;
+}
+@media screen and (max-width:240px) {
+    .footer-content{
+        color: gray;
+        margin-left: 0.5rem;
+        position: relative;
+        top: 4rem;
+        font-size: 0.7rem;
+    }
+}
